@@ -1,0 +1,23 @@
+{
+  "AWSTemplateFormatVersion": "5400-19-19",
+  "Description": "Lambda Function resource stack creation using Amplify CLI",
+  "Parameters": {
+    "CloudWatchRule": {
+      "Type": "String",
+      "Default": "NONE",
+      "Description": " Schedule Expression"
+    },
+    "deploymentBucketName": {
+      "Type": "String"
+    },
+    "env": {
+      "Type": "String"
+    },
+    "s3Key": {
+      "Type": "String"
+    },
+    "storageheraBucketName": {
+      "Type": "String",
+      "Default": "storageheraBucketName"
+    },
+    
